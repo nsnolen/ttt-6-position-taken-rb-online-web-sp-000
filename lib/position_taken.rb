@@ -1,9 +1,11 @@
 def position_taken?(board, index)
-  if index == !" "
+  if index == " "
     return false
   elsif index == "X"
     return true
-  else index =="O"
+  elsif index == "O"
     return true
+  else 
+    nil
 end
 end
